@@ -1,0 +1,27 @@
+{
+  "name": "favorito",
+  "version": "1.0.0",
+  "description": "api rest ejemplo guardar los link favoritos",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angel-mendoza/rest-favorito.git"
+  },
+  "author": "angel mendoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angel-mendoza/rest-favorito/issues"
+  },
+  "homepage": "https://github.com/angel-mendoza/rest-favorito#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
