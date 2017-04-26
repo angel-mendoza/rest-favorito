@@ -1,13 +1,16 @@
 'use strict'
 
-var express = require('express');
-var bodyParser = require("body-parser");
-var app = express();
+var mongoose = require('mongoose');
+var app = require('./app');
 var port = process.env.PORT || 3000;
 
-app.use(bodyParser.urlencoded({extended:false}));
-app.use(bodyParser.json());
-
-app.listen(3000, function() {
-	console.log("todo bien");
+mongoose.connect('mongodb://localhost:27017/cursoFavorito', (err, res)=>{
+	if (err) {
+		throw err;
+	}else{
+		app.listen(3000, function() {
+			console.log("todo bien");
+		});
+	}
 });
+

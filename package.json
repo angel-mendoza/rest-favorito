@@ -19,7 +19,8 @@
   "homepage": "https://github.com/angel-mendoza/rest-favorito#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "mongoose": "^4.9.6"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
